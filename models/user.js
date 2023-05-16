@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb://0.0.0.0:27017/mindx')
+mongoose.connect('mongodb+srv://testdeploy1:long3301@cluster0.3imnp7c.mongodb.net/test1')
 
 const userSchema = new mongoose.Schema({
     username: String,
